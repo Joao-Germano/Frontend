@@ -27,8 +27,10 @@ public class Cardapio {
             System.out.println("Hambúrguer");
             System.out.println("1 Hora");
                 break;
-            default: System.out.println("Pedido e o tempo de espera é");
+            default:
+             System.out.println("Não existe essa opção você está errado");
                 break;
         }
+        scntempo.close();
     }
 }
