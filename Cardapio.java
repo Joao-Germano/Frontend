@@ -1,13 +1,9 @@
 import java.util.*;
 
 public class Cardapio {
-    private static String strogonoff;
-    private static String peixe;
-    private static String lasanha;
-    private static String hambúrguer;
-   
+    
     public static void main(String[]args) {
-        System.out.println("Opcões 1, 2, 3, 4");
+        System.out.println("Opcões 1, 2, 3, 4, 5, 6");
         Scanner scntempo = new Scanner(System.in);
         int opcoes = scntempo.nextInt();
         switch (opcoes) {
@@ -27,6 +23,15 @@ public class Cardapio {
             System.out.println("Hambúrguer");
             System.out.println("1 Hora");
                 break;
+            case 5:
+                System.out.println("Batata frita");
+                System.out.println("10 minutos");
+                    break;
+            case 6:
+                 System.out.println("Salada");
+                 System.out.println("10 minutos");
+                 System.out.println("É sério isso");
+                        break;
             default:
              System.out.println("Não existe essa opção você está errado");
                 break;
